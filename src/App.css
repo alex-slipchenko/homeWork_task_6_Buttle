@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.form__wrapper {
+  padding-bottom: 15px;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-around;
+}
+.user__rezult {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.container form {
+  border: 1px solid black;
+  max-width: 250px;
+  padding: 10px 20px 30px 20px;
+}
+form ul {
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем отступы по умолчанию */
+  margin: 0; /* Убираем отступы по умолчанию */
+}
+
+form li {
+  padding-bottom: 10px;
+}
+form li:last-child {
+  font-weight: bold;
+}
+
+.container label {
+  display: block;
+}
+
+.container button {
+  border: 1px solid black;
+}
+form span {
+  font-weight: bold;
+}
+form input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+form .error_input {
+  border: 1px solid red;
+  margin-bottom: 5px;
+}
+
+.img__user {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.error {
+  justify-content: none;
+  color: red;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
